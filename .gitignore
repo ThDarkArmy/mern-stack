@@ -1,0 +1,5 @@
+/.config.env
+/node_modules
+port
+/client/node_modules
+/server/node_modules

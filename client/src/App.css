@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+@extend display-flex;
+display-flex,
+.display-flex,
+.display-flex-center,
+.signup-content,
+
+.socials {
+  display: flex;
+  display: -webkit-flex;
+}
+body {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #222;
+  background: #f8f8f8;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  background: rgb(255, 255, 255);
+  margin:  auto;
+  
+}
+
+
+
+
+
+.signup {
+  height: 85vh;
+  display: grid;
+  place-items: center;
+}
+
+.signup-content
+ {
+  padding: 0px 100px;
+ 
+}
+
+
+.signup-form,
+.signup-image
+{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.signup-image {
+  margin: 110px 120px;
+  margin-left: 40%;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  font-weight: bold;
+
+  ;
+}
+
+.signup-image {
+  /*margin-top: 45px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+figure {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-submit {
+  display: inline-block;
+  background: #6dabe4;
+  color: #fff;
+  border-bottom: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background: #4292dc;
+}
+
+
+.signup-image-link {
+  font-size: 14px;
+  color: #222;
+  display: block;
+  text-align: center;
+}
+.register-form {
+  width: 270%;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.form-group:last-child {
+  margin-bottom: 0px;
+}
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid rgb(7, 8, 7);
+  padding: 6px 30px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid rgb(7, 8, 7);
+  padding: 6px 30px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+
+}
+label {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  color: #222;
+}
+
+
+
+.material-icons-name {
+  font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: calc(270% - 30px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-content{
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+  }
+
+  .signup-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    /* box-sizing: border-box; */
+    padding: 0 30px;
+  }
+  .signup-form,
+  .signup-image
+   {
+    width: auto;
+  }
+
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 700px) {
+  .input_field {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .input_field:last-child {
+    margin-bottom: 0px;
+  }
+
+}
+}
+
+.heading{
+text-align: center;
+color:#4292dc;
+background-color: #222;
+margin-top: 2%;
+font-family: "Poppins", sans-serif;
+}
+.card{
+  width: 30%;
+ 
+ 
+}
+.card-body{
+  background-color:rgb(243, 217, 233);
+  border-color:#222;
+  border-style:double;
+  border-radius:10px;
+  
+}
+.card-title{
+  text-align: center;
+  background-color:rgb(238, 0, 147);
+  border-radius: 30px;
+}
